@@ -1,0 +1,23 @@
+/*
+    Codeivate default settings
+*/
+{
+
+    //Unused
+    "show_debug": true,
+ 
+    //Notification Settings
+
+        //Built in sublime dialog
+        "dialog" : false,
+
+        //Linux notify send (sudo apt-get install lib_notify)
+        "notify_send_active" : true,
+        "notify_send_path" : "/usr/bin/notify-send",
+                
+        //pushover support https://pushover.net/
+        "pushover_active" : false,
+        "pushover_app_id" : "",
+        "pushover_user_id" : ""
+
+}
