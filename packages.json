@@ -10,8 +10,8 @@
 			"platforms": {
 				"osx": [
 					{
-						"version": "0.1.1",
-						"url": "https://nodeload.github.com/codeivate/codeivate-st/zipball/your_tag_name_here"
+						"version": "0.2.3",
+						"url": "https://github.com/codeivate/codeivate-st/"
 					}
 				]
 			}
