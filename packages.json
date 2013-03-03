@@ -10,7 +10,7 @@
 			"platforms": {
 				"osx": [
 					{
-						"version": "0.2.5",
+						"version": "0.2.6",
 						"url": "https://github.com/codeivate/codeivate-st/"
 					}
 				]
