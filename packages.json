@@ -5,13 +5,13 @@
 			"name": "Codeivate",
 			"description": "Adds Codeivate support, see www.codeivate.com",
 			"author": "p4ul",
-			"homepage": "http://www.codeivate.com",
-			"last_modified": "2013/03/02 17:32:31",
+			"homepage": "https://github.com/codeivate/codeivate-st",
+			"last_modified": "2012/10/3 23:32:31",
 			"platforms": {
-				"*": [
+				"osx": [
 					{
-						"version": "0.1.2",
-						"url": "https://github.com/codeivate/codeivate-st/"
+						"version": "0.1.1",
+						"url": "https://nodeload.github.com/codeivate/codeivate-st/zipball/your_tag_name_here"
 					}
 				]
 			}
