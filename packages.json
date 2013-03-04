@@ -6,11 +6,11 @@
 			"description": "Adds Codeivate support, see www.codeivate.com",
 			"author": "p4ul",
 			"homepage": "https://github.com/codeivate/codeivate-st",
-			"last_modified": "2012/10/3 23:32:31",
+			"last_modified": "2013/03/3 20:43:31",
 			"platforms": {
 				"osx": [
 					{
-						"version": "0.2.6",
+						"version": "0.2.7",
 						"url": "https://github.com/codeivate/codeivate-st/"
 					}
 				]
