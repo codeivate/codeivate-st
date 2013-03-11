@@ -1,0 +1,30 @@
+Software contained in the "gntp" directory is subject to the licenses in the
+"gntp" directory. All other files are subject to the
+following copyright.
+
+--------
+
+Codeivate
+Copyright (c) 2013 Paul Sinclair <paul@codeivate.com>
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software to use it for an evaluation period for the purpose of
+testing prior to purchase.
+
+Extended use of Codeivate requires a license, which can be purchased from
+http://www.codeivate.com/ . Any person who has purchased a license from
+Paul Sinclair and enters the provided product key is granted use of Codeivate
+on any number of computers, of any supported operating system. Licences are
+valid for only a single person, and are valid for all upgrades.
+
+Redistribution, modification, merging, publication, distribution, sublicensing,
+and/or selling copies of Codeivate is prohibited. Please contact
+paul@codeivate.com with any questions.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.

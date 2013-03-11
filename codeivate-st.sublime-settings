@@ -18,6 +18,10 @@
         //pushover support https://pushover.net/
         "pushover_active" : false,
         "pushover_app_id" : "",
-        "pushover_user_id" : ""
+        "pushover_user_id" : "",
+
+        //growl support - tested on windows
+        "growl_active" : true
+
 
 }

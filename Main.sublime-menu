@@ -25,6 +25,11 @@
                                 "args": {"file": "${packages}/User/codeivate-st.sublime-settings"},
                                 "caption": "Settings – User"
                             },
+                            {
+                                "command": "open_file",
+                                "args": {"file": "${packages}/codeivate-st/messages/changelog.txt"},
+                                "caption": "changelog.txt"
+                            },
                             { "caption": "-" }
                         ]
                     }
