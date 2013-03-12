@@ -3,14 +3,14 @@
 	"packages": [
 		{
 			"name": "Codeivate",
-			"description": "Adds Codeivate support, see www.codeivate.com",
+			"description": "Code mastery, See www.codeivate.com",
 			"author": "p4ul",
 			"homepage": "https://github.com/codeivate/codeivate-st",
-			"last_modified": "2013/03/3 20:43:31",
+			"last_modified": "2013/03/13 07:16:31",
 			"platforms": {
 				"osx": [
 					{
-						"version": "0.2.7",
+						"version": "0.2.9",
 						"url": "https://github.com/codeivate/codeivate-st/"
 					}
 				]
