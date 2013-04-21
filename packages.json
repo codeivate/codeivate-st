@@ -5,10 +5,10 @@
 			"name": "Codeivate",
 			"description": "Code mastery, See www.codeivate.com",
 			"author": "p4ul",
-			"homepage": "https://github.com/codeivate/codeivate-st",
+			"homepage": "www.codeivate.com",
 			"last_modified": "2013/03/13 07:16:31",
 			"platforms": {
-				"osx": [
+				"*": [
 					{
 						"version": "0.3.0",
 						"url": "https://github.com/codeivate/codeivate-st/"
