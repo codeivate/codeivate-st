@@ -6,7 +6,5 @@ from codeivated.Prefs import Pref
 from codeivated.Pushover import ThreadPushover
 
 
-print "starting"
-
 if Pref.user_id == False or Pref.user_token == False :
     sublime.set_timeout(Auth.validate_creds_startup, 10000)
