@@ -1,5 +1,0 @@
-  [{ 
-  "command": "powerup", 
-  "args": {"block": true}, 
-  "caption": "Powerup: activate boost" 
-  }]

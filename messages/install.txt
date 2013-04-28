@@ -1,8 +1,8 @@
 thanks for installing codeivate!
 
-Please see codeivate.com to sign up for an account and for more details.
+Please see http://www.codeivate.com to sign up for an account and for more details.
 
-After you create an account visit http://codeivate.com/token 
+After you create an account visit http://codeivate.com/token to get your authentication details.
 
 
 Cheers,
