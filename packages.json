@@ -6,11 +6,11 @@
 			"description": "Code mastery, See www.codeivate.com",
 			"author": "p4ul",
 			"homepage": "https://github.com/codeivate/codeivate-st",
-			"last_modified": "2013/05/13 21:47:31",
+			"last_modified": "2013/05/14 20:22:31",
 			"platforms": {
 				"osx": [
 					{
-						"version": "0.3.1",
+						"version": "0.3.2",
 						"url": "https://github.com/codeivate/codeivate-st/"
 					}
 				]
