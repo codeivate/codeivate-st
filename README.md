@@ -12,6 +12,7 @@ see http://www.codeivate.com for more info.
 For a live example see http://www.codeivate.com/users/paul
 
 
+[![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8e1043cd29c92e6383d3542de4a080b4 "githalytics.com")](http://githalytics.com/codeivate/codeivate-st)
 ## Installation
 
 
