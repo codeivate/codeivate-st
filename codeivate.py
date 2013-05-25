@@ -1,10 +1,11 @@
 import sublime
-import sublime_plugin
-import codeivated.Auth as Auth
-from codeivated.Listener import Listener
-from codeivated.Prefs import Pref
-from codeivated.Pushover import ThreadPushover
+from .codeivated import Prefs
+from .codeivated.FeedBack import FeedBack
+from .codeivated import Auth
+from .codeivated.Listener import Listener
 
+def plugin_loaded():
+    Prefs.setup()
+    Prefs.setOptions()
 
-if Pref.user_id == False or Pref.user_token == False :
-    sublime.set_timeout(Auth.validate_creds_startup, 10000)
+    print( "loaded" )
