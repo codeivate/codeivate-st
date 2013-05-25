@@ -15,6 +15,7 @@ For a live example see http://www.codeivate.com/users/paul
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8e1043cd29c92e6383d3542de4a080b4 "githalytics.com")](http://githalytics.com/codeivate/codeivate-st)
 ## Installation
 
+[Sublime 3 Version Available](https://github.com/codeivate/codeivate-st/tree/sublime3)
 
 You can install it via [Sublime Package Control](http://wbond.net/sublime_packages/package_control),   
 
@@ -26,7 +27,7 @@ Open http://www.codeivate.com/token
 
 Copy settings from http://www.codeivate.com/token to Codeivate settings User file  
 Found in menu:  
-"Preferences Menu" -> "Package Settings" -> "Codeivate" -> "Settings - User"      
+`"Preferences Menu" -> "Package Settings" -> "Codeivate" -> "Settings - User"      `
 
 
 As you code you should see your progress in the status bar.  
