@@ -1,8 +1,12 @@
-thanks for installing codeivate!
+thanks for installing Codeivate!
 
 Please see http://www.codeivate.com to sign up for an account and for more details.
 
-After you create an account visit http://codeivate.com/token to get your authentication details.
+After you create an account visit http://www.codeivate.com/token to get your authentication details.
+
+
+You can change your machine name in the Codeivate settings file.
+Preferences Menu -> Package Settings -> Codeivate -> Settings - User
 
 
 Cheers,

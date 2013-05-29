@@ -1,1 +1,12 @@
+2013-05-29
+--------------
++ Added fix to stop printing to build window earning points
++ Added Test version of finer grained language detection
++ Added ability to share config file across machines and keep machine names
++ Tidied up debug statements
+
+
+
 Beta version launched.
+
+
