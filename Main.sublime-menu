@@ -27,7 +27,7 @@
                             },
                             {
                                 "command": "open_file",
-                                "args": {"file": "${packages}/codeivate-st/messages/changelog.txt"},
+                                "args": {"file": "${packages}/Codeivate/messages/changelog.txt"},
                                 "caption": "changelog.txt"
                             },
                             { "caption": "-" }

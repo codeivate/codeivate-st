@@ -1,3 +1,7 @@
+2013-05-30
+--------------
++ Fixed bug in language parsing regex 
+
 2013-05-29
 --------------
 + Added fix to stop printing to build window earning points
