@@ -1,3 +1,7 @@
+2013-05-31
+--------------
++ Fixed more bugs in language parsing code 
+
 2013-05-30
 --------------
 + Fixed bug in language parsing regex 
