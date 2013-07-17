@@ -9,7 +9,12 @@ your coding style, measure your progress over time and compare yourself to other
 see http://www.codeivate.com for more info. 
 
 
-For a live example see http://www.codeivate.com/users/paul
+For a live examples see 
+ 
+* [Developer profile](http://www.codeivate.com/users/paul)
+* [A weekly coding summary](http://www.codeivate.com/users/paul/7days)
+* [Benchmarks for programmers][(http://www.codeivate.com/users/paul/trends)
+* [Developer leaderboard](http://www.codeivate.com/users/leaderboard)
 
 
 [![githalytics.com alpha](https://cruel-carlota.pagodabox.com/8e1043cd29c92e6383d3542de4a080b4 "githalytics.com")](http://githalytics.com/codeivate/codeivate-st)
