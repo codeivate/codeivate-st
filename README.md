@@ -13,7 +13,7 @@ For a live examples see
  
 * [Developer profile](http://www.codeivate.com/users/paul)
 * [A weekly coding summary](http://www.codeivate.com/users/paul/7days)
-* [Benchmarks for programmers][(http://www.codeivate.com/users/paul/trends)
+* [Benchmarks for programmers](http://www.codeivate.com/users/paul/trends)
 * [Developer leaderboard](http://www.codeivate.com/users/leaderboard)
 
 
