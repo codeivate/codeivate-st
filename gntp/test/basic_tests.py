@@ -1,4 +1,6 @@
-#!/usr/bin/env python
+# Copyright: 2013 Paul Traylor
+# These sources are released under the terms of the MIT license: see LICENSE
+
 # -*- coding: utf-8 -*-
 # Simple test to send each priority level
 import logging
@@ -6,11 +8,12 @@ logging.basicConfig(level=logging.WARNING)
 
 import os
 import unittest
+
 from gntp.test import GNTPTestCase
-import gntp
 import gntp.config
-import gntp.notifier
+import gntp.core
 import gntp.errors as errors
+import gntp.notifier
 
 ICON_URL = "https://www.google.com/intl/en_com/images/srpr/logo3w.png"
 ICON_FILE = os.path.join(os.path.dirname(__file__), "growl-icon.png")
@@ -51,7 +54,7 @@ class BasicTests(GNTPTestCase):
 		self.assertRaises(AssertionError, self._notify, noteType='Unknown')
 
 	def test_parse_error(self):
-		self.assertRaises(errors.ParseError, gntp.parse_gntp, 'Invalid GNTP Packet')
+		self.assertRaises(errors.ParseError, gntp.core.parse_gntp, 'Invalid GNTP Packet')
 
 	def test_url_icon(self):
 		self.assertIsTrue(self._notify(

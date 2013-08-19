@@ -1,12 +1,18 @@
-thanks for installing Codeivate!
+** Sublime Text 3 BETA release **
 
-Please see http://www.codeivate.com to sign up for an account and for more details.
+Thanks for installing Codeivate! 
 
-After you create an account visit http://www.codeivate.com/token to get your authentication details.
+What is Codeivate?
+Aiming to provide fun personal analytics for developers. Get insight into your work habits, and compete against others just by coding in Sublime.
 
 
-You can change your machine name in the Codeivate settings file.
-Preferences Menu -> Package Settings -> Codeivate -> Settings - User
+Please see www.codeivate.com to sign up for an account and for more details.
+
+After you create an account visit http://www.codeivate.com/token 
+and add your authentication details to  "Preferences -> Package Settings -> Codeivate -> settings - user"
+
+Feedback, bugs, ideas? please contact http://www.twitter.com/codeivate 
+or via user echo http://codeivate.userecho.com/forum/17921-general/
 
 
 Cheers,

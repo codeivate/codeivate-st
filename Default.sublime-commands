@@ -1,0 +1,14 @@
+[
+    {
+    	"caption": "Codeivate: open summary",
+    	"command": "codeivate_open_user_summary"
+    },
+    {
+    	"caption": "Codeivate: open leaderboard",
+    	"command": "codeivate_open_leaderboard"
+    },
+    {
+    	"caption": "Codeivate: assign tag to project",
+    	"command": "codeivate_tag"
+    }
+]

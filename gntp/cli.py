@@ -1,12 +1,14 @@
-#!/usr/bin/env python
+# Copyright: 2013 Paul Traylor
+# These sources are released under the terms of the MIT license: see LICENSE
 
-import sys
-import os
 import logging
-from gntp.version import __version__
-from gntp.notifier import GrowlNotifier
+import os
+import sys
 from optparse import OptionParser, OptionGroup
-from ConfigParser import RawConfigParser
+
+from gntp.notifier import GrowlNotifier
+from gntp.shim import RawConfigParser
+from gntp.version import __version__
 
 DEFAULT_CONFIG = os.path.expanduser('~/.gntp')
 
@@ -17,7 +19,6 @@ config = RawConfigParser({
 })
 config.read([DEFAULT_CONFIG])
 if not config.has_section('gntp'):
-	logging.info('Error reading ~/.gntp config file')
 	config.add_section('gntp')
 
 
@@ -76,7 +77,7 @@ class ClientParser(OptionParser):
 		values, args = OptionParser.parse_args(self, args, values)
 
 		if values.message is None:
-			print 'Enter a message followed by Ctrl-D'
+			print('Enter a message followed by Ctrl-D')
 			try:
 				message = sys.stdin.read()
 			except KeyboardInterrupt:
@@ -100,6 +101,8 @@ class ClientParser(OptionParser):
 def main():
 	(options, message) = ClientParser().parse_args()
 	logging.basicConfig(level=options.verbose)
+	if not os.path.exists(DEFAULT_CONFIG):
+		logging.info('No config read found at %s', DEFAULT_CONFIG)
 
 	growl = GrowlNotifier(
 		applicationName=options.app,

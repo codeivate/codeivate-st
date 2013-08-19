@@ -1,3 +1,16 @@
+2013-08-19
+--------------
+**ST3 Only**
++ Added shortcuts to command menu to open summary and leaderboard in new browser tab
++ Fixed notify-send for Windows
++ Fixed machine names, added dropbox config file support
++ Excluded searching and other non languages from counting as points on the client
++ Cursor based language detection, detects PHP, SQL, CSS, HTML, JavaScript inside documents when using certain langauges (does not work with plain text)
++ Fixed bug with build windows being counted as input
++ Text entered into console now counts as plain text
++ Added version
+
+
 2013-05-31
 --------------
 + Fixed more bugs in language parsing code 
