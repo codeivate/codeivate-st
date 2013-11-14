@@ -2,10 +2,27 @@ Codeivate | Sublime Text 3 BETA
 ===================================
 A personal-analytics service for programmers. See http://www.codeivate.com for more info.
 
+
+
+
 To install:
+
+### Package manager (the easy way)
+
+* Download http://wbond.net/sublime_packages/package_control and seach for Codeivate
+
+
+### Manual
 
 * In your Sublime 3 Packages directory (Preferences -> Browse packages)  `git clone https://github.com/codeivate/codeivate-st/`
 * Then checkout sublime 3 branch `git checkout sublime3`
+* Signup on www.codeivate.com & enter your authentication details from http://www.codeivate.com/token into Codeivate -> Settings - user file
+
+### Bleeding edge version
+
+
+* In your Sublime 3 Packages directory (Preferences -> Browse packages)  `git clone https://github.com/codeivate/codeivate-st/`
+* Then checkout sublime 3 branch `git checkout sublime3-dev`
 * Signup on www.codeivate.com & enter your authentication details from http://www.codeivate.com/token into Codeivate -> Settings - user file
 
 
