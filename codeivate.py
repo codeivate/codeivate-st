@@ -10,7 +10,7 @@ from .codeivated.Listener import Listener
 # import compileall
 # compileall.compile_dir('/home/paul/.config/sublime-text-3/Packages/codeivate-st/codeivated/', force=True)
 
-__version__      = '3.0.10'
+__version__      = '3.0.14'
 __authors__      = ['"Paul Sinclair" <paul@codeivate.com>']
 
 def plugin_loaded():

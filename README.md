@@ -2,7 +2,7 @@ Codeivate
 ============
 _Insight, motivation and benchmarking for programmers._
 
-A new Sublime Text 2 plugin that tracks your progress towards code mastery.
+A new Sublime Text 2 & 3 plugin that tracks your progress towards code mastery.
 Whether you’re just starting out or a seasoned computer scientist, learn more about
 your coding style, measure your progress over time and compare yourself to others.   
 
@@ -22,29 +22,11 @@ For a live examples see
 
 [Sublime 3 Version Available](https://github.com/codeivate/codeivate-st/tree/sublime3)
 
-You can install it via [Sublime Package Control](http://wbond.net/sublime_packages/package_control),   
 
-To use you need to enter "user_id" and "user_token"   
+* In your Sublime 3 Packages directory (Preferences -> Browse packages)  `git clone https://github.com/codeivate/codeivate-st/`
+* Then checkout sublime 3 branch `git checkout sublime3-dev`
+* Signup on www.codeivate.com & enter your authentication details from http://www.codeivate.com/token into Codeivate -> Settings - user file
 
-Create an account on http://www.codeivate.com   
-
-Open http://www.codeivate.com/token   
-
-Copy settings from http://www.codeivate.com/token to Codeivate settings User file  
-Found in menu:  
-`"Preferences Menu" -> "Package Settings" -> "Codeivate" -> "Settings - User"      `
-
-
-As you code you should see your progress in the status bar.  
-
-
-
-Check http://www.codeivate.com/summary to see your overall progress.   
-
-Share your profile with other people
-http://www.codeivate.com/user/your_username   
-
-More information can be seen by installing growl on Mac or Windows, or notify-send on Linux.
 
 ## Issues & Ideas
 
