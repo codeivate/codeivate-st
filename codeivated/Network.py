@@ -12,6 +12,16 @@ import base64
 import subprocess
 import functools
 
+
+# Add vendor directory to module search path
+parent_dir = os.path.abspath(os.path.dirname(__file__) + "/..")
+vendor_dir = os.path.join(parent_dir, 'vendor')
+sys.path.append(vendor_dir)
+
+# linux only works with v2.0.0 (v2.0.1 breaks it)
+import requests
+
+
 import tempfile
 import traceback
 import contextlib
@@ -70,7 +80,7 @@ def catch_errors(fn):
     return _fn
 
 @catch_errors
-def api_request(url, raw_data=None, method=None):
+def api_request_urllib(url, raw_data=None, method=None):
     
     request = urllib.Request(url)
     print('API request url:', request.get_full_url())
@@ -108,8 +118,44 @@ def api_request(url, raw_data=None, method=None):
 
 
 
+'''
+Second attempt this is using requests module
+http://www.python-requests.org/en/latest/user/quickstart/#make-a-request
+
+proxies = {
+  "http": "10.10.1.10:3128",
+  "https": "10.10.1.10:1080",
+}
+
+requests.get("http://example.org", proxies=proxies)
+To use HTTP Basic Auth with your proxy, use the http://user:password@host.com/ syntax:
+
+proxies = {
+    "http": "http://user:pass@10.10.1.10:3128/"
+}
+
+http://stackoverflow.com/questions/8287628/proxies-with-python-requests-module
+'''
+def api_request_requests(url, raw_data=None, method=None):
+    # I haven't set proxies None and done away with these if statements because im not sure if it
+    # will override environment proxy vars
+    if raw_data is not None:
+        if Prefs.http_proxy:
+            r = requests.post(url, data=raw_data, proxies=Prefs.http_proxy)
+            print("using proxy")
+        else :
+            r = requests.post(url, data=raw_data)
+    else :
+        if Prefs.http_proxy:
+            r = requests.get(url, proxies=Prefs.http_proxy)            
+            print("using proxy")
+        else :
+            r = requests.get(url)
+
+    print("RESPONSE")        
+    print(r)        
+    return r.json()
 
 
 
-
-
+api_request = api_request_requests
