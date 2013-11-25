@@ -123,8 +123,8 @@ Second attempt this is using requests module
 http://www.python-requests.org/en/latest/user/quickstart/#make-a-request
 
 proxies = {
-  "http": "10.10.1.10:3128",
-  "https": "10.10.1.10:1080",
+  "http": "http://10.10.1.10:3128",
+  "https": "https://10.10.1.10:1080",
 }
 
 requests.get("http://example.org", proxies=proxies)
@@ -141,8 +141,9 @@ def api_request_requests(url, raw_data=None, method=None):
     # will override environment proxy vars
     if raw_data is not None:
         if Prefs.proxies:
+            print("using proxy for " + url)
+            print(Prefs.proxies)
             r = requests.post(url, data=raw_data, proxies=Prefs.proxies)
-            print("using proxy")
         else :
             r = requests.post(url, data=raw_data)
     else :
