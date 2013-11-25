@@ -99,9 +99,9 @@ def api_request_urllib(url, raw_data=None, method=None):
 
     print('API request data:', request.get_data())
     print('API request header:', request.header_items())
-    if Prefs.https_proxy:
+    if Prefs.proxies:
         opener = urllib.build_opener(urllib.HTTPHandler(), urllib.HTTPSHandler(),
-                                     urllib.ProxyHandler({'https': Prefs.https_proxy}))
+                                     urllib.ProxyHandler(proxies))
 
         urllib.install_opener(opener)
 
@@ -140,14 +140,14 @@ def api_request_requests(url, raw_data=None, method=None):
     # I haven't set proxies None and done away with these if statements because im not sure if it
     # will override environment proxy vars
     if raw_data is not None:
-        if Prefs.http_proxy:
-            r = requests.post(url, data=raw_data, proxies=Prefs.http_proxy)
+        if Prefs.proxies:
+            r = requests.post(url, data=raw_data, proxies=Prefs.proxies)
             print("using proxy")
         else :
             r = requests.post(url, data=raw_data)
     else :
-        if Prefs.http_proxy:
-            r = requests.get(url, proxies=Prefs.http_proxy)            
+        if Prefs.proxies:
+            r = requests.get(url, proxies=Prefs.proxies)            
             print("using proxy")
         else :
             r = requests.get(url)
