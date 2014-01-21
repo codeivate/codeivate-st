@@ -22,7 +22,7 @@ For a live examples see
 
 [Sublime 3 Version Available](https://github.com/codeivate/codeivate-st/tree/sublime3)
 
-You can install it via [Sublime Package Control](http://wbond.net/sublime_packages/package_control),   
+You can install it via [Sublime Package Control](http://wbond.net/sublime_packages/package_control) download package control and bring up the package install list CTRL+SHIFT+P then type and select "Install package", search for "Codeivate" and hit enter.   
 
 To use you need to enter "user_id" and "user_token"   
 
@@ -45,6 +45,22 @@ Share your profile with other people
 http://www.codeivate.com/user/your_username   
 
 More information can be seen by installing growl on Mac or Windows, or notify-send on Linux.
+
+# Manual Install
+
+_Step 1_  
+ Navigate to the Sublime Text packages directory.   
+ This can be found in the Sublime Text menu  
+ "Preferences" -> "Browse Packages..."
+ 
+_Step 2_  
+ Get the repository. 
+ Download zip here: https://github.com/codeivate/codeivate-st/archive/master.zip   
+ or 
+ `git clone git://github.com/codeivate/codeivate-st.git`  
+ 
+_Step 3_    
+ Extract or clone to the packages directory into a folder named "codeivate-st"  
 
 ## Issues & Ideas
 
